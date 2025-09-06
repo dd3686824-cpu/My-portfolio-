@@ -1,0 +1,229 @@
+/* General Styles */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background: #f4f4f4;
+
+  color: #333;
+
+}
+
+header {
+
+  background: #222;
+
+  color: #fff;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.5rem;
+
+}
+
+header p {
+
+  margin: 5px 0;
+
+  font-size: 1.2rem;
+
+}
+
+nav {
+
+  background: #444;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 10px;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  margin: 0 15px;
+
+  font-size: 1rem;
+
+}
+
+nav a:hover {
+
+  color: #00bcd4;
+
+}
+
+section {
+
+  padding: 40px;
+
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+h2 {
+
+  color: #222;
+
+  border-bottom: 2px solid #00bcd4;
+
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+}
+
+/* Education Section */
+
+.education {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+}
+
+.education div {
+
+  background: #fff;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  flex: 1 1 250px;
+
+  transition: 0.3s;
+
+}
+
+.education div:hover {
+
+  transform: translateY(-5px);
+
+  background: #00bcd4;
+
+  color: #fff;
+
+}
+
+.education h3 {
+
+  margin: 0 0 10px;
+
+}
+
+/* Skills & Hobbies */
+
+.skills, .hobbies {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+}
+
+.skills div, .hobbies div {
+
+  background: #fff;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  flex: 1 1 200px;
+
+  text-align: center;
+
+  transition: 0.3s;
+
+}
+
+.skills div:hover, .hobbies div:hover {
+
+  transform: scale(1.05);
+
+  background: #00bcd4;
+
+  color: #fff;
+
+  cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #222;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding: 15px 0;
+
+  margin-top: 20px;
+
+}
+
+/* Smooth Scrolling */
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+  section {
+
+    padding: 20px;
+
+  }
+
+  nav {
+
+    flex-direction: column;
+
+  }
+
+  nav a {
+
+    margin: 8px 0;
+
+  }
+
+}
